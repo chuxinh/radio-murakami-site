@@ -4,19 +4,20 @@
 -----------------------*/
 
 .footer{
-    padding: 80px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 
 .footer-copy {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .current-year {
     color: $primary-color !important;
 }
-
-
 
 
 .text-black{

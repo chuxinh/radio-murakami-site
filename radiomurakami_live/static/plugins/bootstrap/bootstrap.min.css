@@ -167,7 +167,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff
+  background-color: #f4f7fc !important;
 }
 
 .text-monospace,
@@ -542,7 +542,7 @@ mark {
 .list-inline,
 .list-unstyled {
   padding-left: 0;
-  list-style: none
+  list-style: none;
 }
 
 .list-inline-item {
