@@ -43,7 +43,7 @@ author = "Radio Murakami Bot"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 [Radio Murakami](https://twitter.com/radio_murakami)"
+copyright = "© {year} Radio Murakami"
 
   # Preloader
   [params.preloader]
