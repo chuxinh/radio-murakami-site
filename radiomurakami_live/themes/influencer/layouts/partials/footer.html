@@ -1,13 +1,6 @@
 <footer class="footer">
   <div class="container">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 col-sm-12 ">
-        <div class="footer-widget">
-          <p class="mb-4">{{ .Site.Params.footer.content | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="container">
     <div class="row footer-btm mt-5 pt-4 border-top">
@@ -16,6 +9,14 @@
         <p class="footer-copy">
           {{ .Site.Params.copyright | markdownify }}
         </p>
+      </div>
+      <ul class="list-inline share">
+        <li class="lis-inline-item">
+        </li>
+        {{ range .Site.Params.share }}
+        <li class="list-inline-item mb-2 mb-lg-0"><a href="#" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
+        {{ end }}
+      </ul>
       </div>
     </div>
   </div>
