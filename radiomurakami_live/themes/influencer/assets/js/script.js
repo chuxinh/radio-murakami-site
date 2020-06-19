@@ -25,9 +25,9 @@
     });
 
 
-    $('.testimonial-wrap').slick({
-      slidesToShow: 3,
-      slidesToScroll: 3,
+    $('.design-wrap').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
       infinite: true,
       dots: false,
       arrows: false,

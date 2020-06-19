@@ -1,7 +1,7 @@
 /*------------------------------------
 SECTION TESTIMONIAL
 -------------------------------------*/
-.testimonial{
+.design{
     position: relative;
 
     &:before{
@@ -32,89 +32,9 @@ SECTION TESTIMONIAL
 }
 
 
-.test-author-thumb{
-    img{
-        margin: 0 auto;
-        width: 80px;
-        height:80px;
-        border-radius: 100%;
-    }
-}
-
 .testimonial-wrap{
     box-shadow: 0px 20px 40px 0px rgba(38, 59, 94, 0.1);
     background: $light;
     border-radius: 15px;
 }
 
-
-
-
-/* rating */
-.rating {
-    &.five {
-      li {
-        i {
-          color: $primary-color;
-        }
-      }
-    }
-  
-    &.four {
-      li {
-        &:not(:last-child) {
-          i {
-            color: $primary-color;
-          }
-        }
-      }
-    }
-  
-    &.three {
-      li {
-        i {
-          color: $primary-color;
-        }
-  
-        &:last-child {
-          i {
-            color: $black-lighter;
-          }
-        }
-  
-        &:nth-child(4) {
-          i {
-            color: $black-lighter;
-          }
-        }
-      }
-    }
-  
-    &.two {
-      li {
-        &:first-child {
-          i {
-            color: $primary-color;
-          }
-        }
-  
-        &:nth-child(2) {
-          i {
-            color: $primary-color;
-          }
-        }
-      }
-    }
-  
-    &.one {
-      li {
-        &:first-child {
-          i {
-            color: $primary-color;
-          }
-        }
-      }
-    }
-  }
-  
-  /* /rating */
