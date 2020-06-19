@@ -28,6 +28,7 @@ CONTACT PAGE
 }
 
 .form-control:focus,.form-control:hover{
-    border-color: $primary-color;
+    border-color: $secondary_color;
     box-shadow: none;
+    opacity: 0.8;
 }

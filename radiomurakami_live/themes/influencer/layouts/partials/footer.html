@@ -7,8 +7,9 @@
       <div class="col-lg-6">
         <!-- Copyright -->
         <p class="footer-copy">
-          {{ .Site.Params.copyright | markdownify }}
+          {{ replace .Site.Params.copyright "{year}" now.Year | markdownify }}
         </p>
+
       </div>
       <ul class="list-inline share">
         <li class="lis-inline-item">

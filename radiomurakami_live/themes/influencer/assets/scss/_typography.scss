@@ -73,12 +73,15 @@ h2 {
 
 .h3,
 h3 {
+    font-family: $secondary-font !important;
     font-size: 28px;
+    font-weight: 400 !important;
+    color: #6a7695;
 }
 
 .h4,
 h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .h5,
