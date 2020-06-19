@@ -1,28 +1,6 @@
 <footer class="footer">
   <div class="container">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 col-sm-12 ">
-        <div class="footer-widget">
-          <a class="mb-4 d-inline-block" href="{{ .Site.BaseURL }}">
-            {{ if .Site.Params.logo }}
-            <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
-            {{ else }}
-            <h2 class="mb-0 text-dark">{{ .Site.Title }}</h2>
-            {{ end }}
-          </a>
-          <p class="mb-4">{{ .Site.Params.footer.content | markdownify }}</p>
-        </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="subscribe">
-          <h4 class="mb-4">Get up to 20% Discount</h4>
-          <input type="text" class="form-control mb-4" placeholder="Put your email address">
-          <a href="#" class="btn btn-main">Download Now<i class="ti-angle-right ml-3"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="container">
     <div class="row footer-btm mt-5 pt-4 border-top">
@@ -32,10 +10,13 @@
           {{ .Site.Params.copyright | markdownify }}
         </p>
       </div>
-      <div class="col-lg-6">
-        <div class="footer-btm-menu text-lg-right">
-          <img src="{{`images/about/cards-3.png` | relURL }}" alt="" class="img-fluid">
-        </div>
+      <ul class="list-inline share">
+        <li class="lis-inline-item">
+        </li>
+        {{ range .Site.Params.share }}
+        <li class="list-inline-item mb-2 mb-lg-0"><a href="#" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
+        {{ end }}
+      </ul>
       </div>
     </div>
   </div>
