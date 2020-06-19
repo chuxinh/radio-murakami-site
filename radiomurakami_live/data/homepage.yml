@@ -8,8 +8,6 @@ banner:
 ########################## Revews ###########################
 reviews:
   enable : true
-  title : "What people are saying"
-  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
   review:
     # review item loop
     - name : "Barrow Hasi"
