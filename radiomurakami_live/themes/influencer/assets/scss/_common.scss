@@ -83,9 +83,10 @@ Common Styles
     background: $secondary-color;
 
     &:hover {
-        background: $primary-color;
+        background: $secondary-color;
         color: $light;
-        border-color: $primary-color;
+        border-color: $secondary-color;
+        opacity: 0.8;
     }
 }
 
