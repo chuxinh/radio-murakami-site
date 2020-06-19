@@ -5,13 +5,13 @@
 <section class="banner-main py-7" id="banner">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-7 col-md-8">
+      <div class="col-lg-5 col-md-8">
         <div class="main-banner">
           <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
           <h1 class="mb-3 mt-2">{{ .title | markdownify }}</h1>
 
           <h3 class="mb-4">{{ .content | markdownify }}</p>
-          <h4 class="mb-4">Sign up with your email address to get notified.</h4>
+          <h4 class="mb-4">📬 Sign up for upcoming designer product launch, or to get involved in the project!</h4>
           <div class="col-lg-6">
             <div class="subscribe">
               <input type="text" class="form-control mb-4" placeholder="Email Address">
@@ -19,16 +19,14 @@
             </div>
           </div>
         </div>
+        
       </div>
-
       <!-- Designs-->
-      <div class="col-lg-5 d-none d-lg-block design-wrap">
-          {{ range .design}}
-              <div class="banner-img pt-5">
-                <img src="{{ .image | relURL }}" alt="Design" class="img-fluid">
-            </div>
-          {{ end }}
-        </div>
+      <div class="col-lg-6 d-none d-lg-block design-wrap box">
+        {{ range .design}}
+          <img src="{{ .image | relURL }}" alt="Design" class="img-fluid">
+        {{ end }}
+      </div>
 
     </div>
   </div>
