@@ -15,7 +15,7 @@
         <li class="lis-inline-item">
         </li>
         {{ range .Site.Params.share }}
-        <li class="list-inline-item mb-2 mb-lg-0"><a href="#" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
+        <li class="list-inline-item mb-2 mb-lg-0"><a href="{{ .link }}" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
         {{ end }}
       </ul>
       </div>
