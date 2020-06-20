@@ -39,6 +39,7 @@ canonifyURLs = true
 [params]
 logo = ""
 home = "Home"
+image = ["images/1.png"]
 # Meta data
 description = "A bot that emulates the writings of Haruki Murakami, generated using GPT-2. Semi-human curated."
 author = "Radio Murakami Bot"
@@ -83,11 +84,3 @@ link = "https://www.instagram.com/radio_murakami_bot/"
 title = "email"
 icon = "ti-email" # themify icon : https://themify.me/themify-icons
 link = "mailto:murakami.radio2020@gmail.com"
-
-############################# Twitter Card ##############################
-[twitter]
-  card = "summary_large_image"
-  site = "@radio_murakami"
-  creator = "@radio_murakami"
-  title = "Radio Murakami"
-  image = "images/1.png"
