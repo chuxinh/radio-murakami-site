@@ -5,6 +5,8 @@ title = "Radio Murakami"
 theme = "influencer"
 summaryLength = "10"
 paginate = 6
+enableRobotsTXT = true
+canonifyURLs = true
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -41,7 +43,7 @@ home = "Home"
 description = "A bot that emulates the writings of Haruki Murakami, generated using GPT-2. Semi-human curated."
 author = "Radio Murakami Bot"
 # Google Analitycs
-googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "UA-170117225-1" # Your ID
 # copyright
 copyright = "© {year} Radio Murakami"
 
