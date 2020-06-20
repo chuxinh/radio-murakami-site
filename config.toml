@@ -67,10 +67,10 @@ title = "twitter"
 icon = "ti-twitter" # themify icon : https://themify.me/themify-icons
 link = "https://twitter.com/radio_murakami"
 
-[[params.share]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/ptuls/radio_murakami"
+#[[params.share]]
+#title = "github"
+#icon = "ti-github" # themify icon : https://themify.me/themify-icons
+#link = "https://github.com/ptuls/radio_murakami"
 
 [[params.share]]
 title = "instagram"
