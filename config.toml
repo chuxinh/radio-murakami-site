@@ -83,3 +83,11 @@ link = "https://www.instagram.com/radio_murakami_bot/"
 title = "email"
 icon = "ti-email" # themify icon : https://themify.me/themify-icons
 link = "mailto:murakami.radio2020@gmail.com"
+
+############################# Twitter Card ##############################
+[twitter]
+  card = "summary_large_image"
+  site = "@radio_murakami"
+  creator = "@radio_murakami"
+  title = "Radio Murakami"
+  image = "images/1.png"
