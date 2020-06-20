@@ -7,7 +7,6 @@ summaryLength = "10"
 paginate = 6
 enableRobotsTXT = true
 canonifyURLs = true
-tags = ["radio murakami", "data science", "gpt-2", "twitter bot", "quote", "design"]
 
 ############################# Plugins ##############################
 [params.plugins]
