@@ -5,6 +5,8 @@ title = "Radio Murakami"
 theme = "influencer"
 summaryLength = "10"
 paginate = 6
+enableRobotsTXT = true
+canonifyURLs = true
 
 ############################# Plugins ##############################
 [params.plugins]
