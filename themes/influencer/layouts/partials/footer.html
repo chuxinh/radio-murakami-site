@@ -1,8 +1,8 @@
 <footer class="footer">
   <div class="row justify-content-between align-items-center">
-    <div class="container col-lg-5">
+    <div class="container col-lg-9">
       <div class="row footer-btm mt-5 pt-4 border-top">
-        <div class="col-lg-6">
+        <div class="col-lg-9">
           <!-- Copyright -->
           <p class="footer-copy">
             {{ replace .Site.Params.copyright "{year}" now.Year | markdownify }}
@@ -28,8 +28,8 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.googleAnalitycsID }}
+{{ "<!-- google analytics -->" | safeHTML }}
+{{ with .Site.Params.googleAnalyticsID }}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
