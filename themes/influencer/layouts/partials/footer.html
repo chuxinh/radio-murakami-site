@@ -28,8 +28,8 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.googleAnalitycsID }}
+{{ "<!-- google analytics -->" | safeHTML }}
+{{ with .Site.Params.googleAnalyticsID }}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
