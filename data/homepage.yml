@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Coming soon!"
   image : "images/1.png"
-  content : "🤖 that emulates the writings of Haruki Murakami, generated using GPT-2"
+  content : "🤖 that writes in the style of Haruki Murakami, generated using GPT-2"
   design:
     - image: "images/1.png"
     - image: "images/2.png" 
